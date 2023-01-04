@@ -4,4 +4,4 @@
 
 </br>
 
-O original está localizado em [Original](/Original/questionario-computacao.c)
+O original está localizado em: [Original](/Original/questionario-computacao.c)
