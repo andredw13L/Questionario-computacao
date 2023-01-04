@@ -1,6 +1,6 @@
 # Questionário computação
 
-*Este questionário foi feito na utilizando a linguagem Java com base em outro, feito durante minhas aulas de ciência da computação, escrito em linguagem C*
+*Este questionário foi feito, para aperfeiçoar meus conhecimentos na utilizando na linguagem Java, com base em outro programa, feito durante minhas aulas de ciência da computação, escrito na linguagem C*
 
 </br>
 
