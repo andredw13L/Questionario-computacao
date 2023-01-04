@@ -290,7 +290,7 @@ public class App {
             if(pontuação == 10) {
 
                 // Pergunta bônus
-                System.out.println("Pergunta bonus – O que é o software?\n\n");
+                System.out.println("Pergunta bônus – O que é um software?\n\n");
                 System.out.println("1)Conjunto de programas que permite o funcionamento e utilização da máquina.");
                 System.out.println("2)Conjunto de componente que permite o funcionamento e utilização do sistema operacional.");
                 System.out.println("3)Conjunto de programas que permite o funcionamento e utilização do navegador.");
@@ -331,10 +331,20 @@ public class App {
                 } else if (bonus == 0){
                     System.out.println("Seu bônus foi de: " + bonus+ "\n");   
                 }
-                
+                sc.close();
+
+            } else  {
+
+                pontuação = 0;
+                bonus = -1;
+
+                // Sleep
+                Thread.sleep(sleep);
+
+                // Limpar o terminal
+                System.out.print("\033[H\033[2J");
+                System.out.flush();  
             }
-            
-            sc.close();
             
         } while (escolha != 1);   
     }

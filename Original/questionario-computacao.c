@@ -206,7 +206,7 @@ sleep(2);
 system("clear");
 
 if (resposta ==1){
-bonus = bonus = printf("\nPergunta bonus – O que é o software?\n\n");
+bonus = bonus = printf("\nPergunta bônus – O que é um software?\n\n");
 printf("1)Conjunto de programas que permite o funcionamento e utilização da máquina.\n");
 printf("2)Conjunto de componente que permite o funcionamento e utilização do sistema operacional.\n");
 printf("3)Conjunto de programas que permite o funcionamento e utilização do navegador.\n");
